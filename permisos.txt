@@ -1,0 +1,11 @@
+total 36
+drwxr-xr-x 5 vagrant vagrant 4096 Oct 21 04:35 .
+drwxr-xr-x 4 root    root    4096 Oct 21 04:09 ..
+-rw-r--r-- 1 vagrant vagrant  220 Jun 25  2025 .bash_logout
+-rw-r--r-- 1 vagrant vagrant 3771 Jun 25  2025 .bashrc
+drwx------ 2 vagrant vagrant 4096 Oct 21 04:10 .cache
+-rw-rw-r-- 1 vagrant vagrant   62 Oct 21 04:35 .gitconfig
+-rw-r--r-- 1 vagrant vagrant  807 Jun 25  2025 .profile
+drwx------ 2 vagrant vagrant 4096 Oct 21 04:20 .ssh
+drwxrwxr-x 3 vagrant vagrant 4096 Oct 21 04:19 repogit
+ls -la $HOME > permisos.txt
