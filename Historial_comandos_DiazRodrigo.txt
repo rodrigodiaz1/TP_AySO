@@ -1,0 +1,22 @@
+cd repogit/TP_AySO/
+git checkout -- README.md
+cat README.md
+cat << EOF >> README.md
+Alumno: Rodrigo Diaz
+División: <111>
+Turno: <mañana>
+EOF 
+
+EOF
+
+cat README.md 
+git add .
+git commit -m "docs:agregar informacion del alumno al README"
+mkdir -p $HOME/universidad/{alumnos/legajos{1..15},profesores/legajos{1..5}}
+ls $HOME/universidad/alumnos
+echo 'mkdir -p $HOME/universidad/{alumnos/legajos{1..15},profesores/legajos{1..5}}' > script_dir.sh
+cat script_dir.sh 
+git add . 
+git commit -m "add: Añadiendo script"
+git push
+history -a
